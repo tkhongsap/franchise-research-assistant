@@ -1,0 +1,52 @@
+franchise_research_task:
+  description: >
+    Conduct a comprehensive research on franchise opportunities within the specified
+    criteria. Focus on investment range, success rates, market trends, and user feedback.
+    Make sure to include recent information as the current year is 2024.
+    This research is aimed at understanding viable franchise options that align with our client’s
+    goals and budget.
+  expected_output: >
+    A detailed report on 5-10 franchise opportunities, including an analysis of their
+    investment requirements, success rates, market positioning, user feedback, and growth potential.
+  agent: research_analysis_agent
+
+project_scope_understanding_task:
+  description: >
+    Review the client’s objectives and understand the specific requirements for franchise
+    investments. Gather additional information on their investment goals, risk tolerance,
+    and long-term growth aspirations.
+  expected_output: >
+    A summary document detailing the client’s objectives, including a profile of their
+    target franchise type, investment range, risk tolerance, and key criteria for success.
+  agent: research_analysis_agent
+
+franchise_investment_strategy_task:
+  description: >
+    Develop an investment strategy for the client’s franchise portfolio. Use insights from
+    the franchise research and project scope understanding tasks to craft a strategy that
+    aligns with the client’s goals and risk tolerance.
+  expected_output: >
+    A strategic investment plan that includes recommended franchise opportunities, investment
+    ranges, risk mitigation strategies, and growth projections, clearly formatted with KPIs
+    and benchmarks for evaluation.
+  agent: chief_investment_officer
+
+competitive_landscape_analysis_task:
+  description: >
+    Analyze competitor franchises in the market to evaluate potential competition and
+    identify unique selling points of top franchises for the client’s consideration.
+  expected_output: >
+    A comparative analysis report of 3-5 competitor franchises, detailing their market
+    positioning, strengths, weaknesses, and unique differentiators.
+  agent: research_analysis_agent
+
+report_compilation_task:
+  description: >
+    Compile the research and analysis findings into a structured, client-ready report. The
+    report should highlight the most promising franchise options, summarize competitive
+    insights, and provide strategic recommendations for franchise investment.
+  expected_output: >
+    A comprehensive PDF report containing an executive summary, franchise comparisons,
+    strategic insights, and an action plan for the client, formatted with visuals and
+    sections for easy readability.
+  agent: reporting_analyst

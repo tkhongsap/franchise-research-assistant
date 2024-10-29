@@ -1,0 +1,10 @@
+    """
+    Run the crew.
+    """
+    inputs = {
+        'topic': 'Subway Franchise Investment Analysis',
+        'investment_budget': '$500,000',
+        'target_market': 'Urban areas in California',
+        'timeline': '12 months'
+    }
+    FranchiseResearchCrew().crew().kickoff(inputs=inputs)
